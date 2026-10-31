@@ -1,0 +1,46 @@
+# Environment files and credentials
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.*
+
+# Python environments, caches, and build artifacts
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# IDE and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local logs and databases
+*.log
+*.db
+*.sqlite
+*.sqlite3
+
+# Superlative Classification local dependencies and generated data
+backend/staticfiles/
+frontend/node_modules/
+frontend/dist/
+storage/datasets/*
+storage/trained_models/*
+storage/temporary/*

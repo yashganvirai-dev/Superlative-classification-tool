@@ -1,0 +1,11 @@
+sepal_length,species
+5.1,setosa
+4.9,setosa
+5.0,versicolor
+5.5,versicolor
+5.8,virginica
+6.0,virginica
+5.2,setosa
+6.1,versicolor
+6.3,virginica
+5.4,setosa
